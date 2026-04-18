@@ -74,3 +74,26 @@ Google Places API → buscar_leads.py → saida/leads_maringá.csv → formatar_
 Install: `pip install -r requirements.txt`
 
 External: Google Places API key set as `GOOGLE_PLACES_KEY` environment variable.
+
+## GitHub Repository
+
+**URL:** https://github.com/mateusarqxis-design/analise-instagram
+**Usuário:** mateusarqxis-design
+**Branch principal:** `main`
+
+### Sincronização automática
+
+Todo arquivo criado ou editado pelo Claude Code é automaticamente commitado e enviado ao GitHub via hook configurado em `.claude/settings.json` (evento `PostToolUse` nos tools `Write` e `Edit`).
+
+Para push manual:
+```bash
+cd "/c/Users/user/analise-instagram"
+git add -A
+git commit -m "mensagem do commit"
+git push origin main
+```
+
+O token de acesso está embutido na URL do remote (`git remote -v` para verificar). Para trocar o token:
+```bash
+git remote set-url origin "https://SEU_TOKEN@github.com/mateusarqxis-design/analise-instagram.git"
+```

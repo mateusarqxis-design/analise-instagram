@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"/c/Users/user/analise-instagram\" && git add -A && git diff --cached --quiet || git commit -m \"Atualizacao automatica via Claude Code\" && git push origin main 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "Enviando alterações para o GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
