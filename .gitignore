@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Dados sensíveis e saídas geradas
+dados/brutos/*.csv
+saida/*.xlsx
+saida/*.csv
+saida/graficos/*.png
+saida/relatorios/*.txt
+
+# Variáveis de ambiente
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
