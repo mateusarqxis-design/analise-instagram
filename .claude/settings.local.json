@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(where gh *)",
+      "Bash(curl --version)"
+    ]
+  }
+}
